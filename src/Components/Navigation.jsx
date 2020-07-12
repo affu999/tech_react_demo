@@ -27,12 +27,12 @@ const Navigation = () => {
                 >
                   <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li className="nav-item mr-3">
-                      <NavLink
-                        to={`/`}
+                      <a
+                        href="/"
                         className="nav-link active"
                        >
                         <span className="ml-2 home">Home</span>
-                      </NavLink>
+                      </a>
                     </li>
                     <li className="nav-item mr-3">
                       <a
