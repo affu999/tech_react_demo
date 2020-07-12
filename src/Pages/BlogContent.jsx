@@ -11,7 +11,7 @@ const BlogContent = (props) => {
   const GetBlogContent = async () => {
     if (content.cnt === 0) {
       await Axios.get(
-        `https://friendly-leavitt-ab3b1d.netlify.app/.netlify/functions/app/blog-page-content/${id}`
+        `https://techfiercenode.netlify.app/.netlify/functions/app/blog-page-content/${id}`
       ).then((data) => {
         if (data.data.message) {
           setContent((prevVal) => {
