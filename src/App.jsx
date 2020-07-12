@@ -14,8 +14,7 @@ const App = () => {
       <Navigation />
       <Router>
         <Route exact path={"/"} component={BlogPage} />
-        <Route eaxct path={"/blog-content"} component={BlogPage} />
-        <Route exact path={"/blog-content/:id"} component={BlogContent} />
+        <Route exact path={"https://techfierceblogs.netlify.app/blog-content/:id"} component={BlogContent} />
       </Router>
     </>
   );
