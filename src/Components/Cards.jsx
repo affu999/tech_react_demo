@@ -8,7 +8,7 @@ const Cards = () => {
     cnt: 0,
   });
   const GetAllCards = () => {
-    if (data.cnt == 0) {
+    if (data.cnt === 0) {
       Axios.get(
         "https://techfiercenode.netlify.app/.netlify/functions/app/get-blog-paths"
       ).then((pathsData) => {
