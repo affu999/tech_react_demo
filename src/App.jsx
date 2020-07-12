@@ -14,7 +14,8 @@ const App = () => {
       <Navigation />
       <Router>
         <Route exact path={"/"} component={BlogPage} />
-        <Route path={"/blog-content/:id"} component={BlogContent} />
+        <Route eaxct path={"/blog-content"} component={BlogPage} />
+        <Route exact path={"/blog-content/:id"} component={BlogContent} />
       </Router>
     </>
   );
