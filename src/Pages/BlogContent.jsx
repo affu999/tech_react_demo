@@ -44,7 +44,7 @@ const BlogContent = (props) => {
                 return <h1 key={key}>Content Not Found</h1>;
               } else {
                 if (val.image) {
-                  return <img src={val.image} className="contentImages my-3" />;
+                  return <img src={val.image} className="contentImages my-3" alt="..." />;
                 }
                 if (val.title) {
                   return (
