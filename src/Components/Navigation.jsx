@@ -8,7 +8,7 @@ const Navigation = () => {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid">
-                <a className="companyName">Tech Fierce</a>
+                <h1 className="companyName">Tech Fierce</h1>
                 <button
                   className="navbar-toggler"
                   type="button"
