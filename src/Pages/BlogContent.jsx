@@ -9,7 +9,7 @@ const BlogContent = (props) => {
     message: "",
   });
   const GetBlogContent = async () => {
-    if (content.cnt == 0) {
+    if (content.cnt === 0) {
       await Axios.get(
         `https://friendly-leavitt-ab3b1d.netlify.app/.netlify/functions/app/blog-page-content/${id}`
       ).then((data) => {
@@ -40,7 +40,7 @@ const BlogContent = (props) => {
           <div className="col-md-10 col-12 ml-5 blogContentColumn mb-5">
             {content.blogContent.map((val, key) => {
               console.log("Hello" + val);
-              if (val == content.message) {
+              if (val === content.message) {
                 return <h1 key={key}>Content Not Found</h1>;
               } else {
                 if (val.image) {
@@ -53,10 +53,10 @@ const BlogContent = (props) => {
                     </h2>
                   );
                 }
-                if (val.content == "break\n") {
+                if (val.content === "break\n") {
                   return <br />;
                 }
-                if (val.content == "breakbreak\n") {
+                if (val.content === "breakbreak\n") {
                   return (
                     <>
                       <br />
