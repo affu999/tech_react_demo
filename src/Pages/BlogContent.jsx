@@ -39,7 +39,7 @@ const BlogContent = (props) => {
         <div className="row mx-auto blogContentRow">
           <div className="col-md-10 col-12 ml-5 blogContentColumn mb-5">
             {content.blogContent.map((val, key) => {
-              console.log("Hello" + val);
+              //console.log("Hello" + val);
               if (val === content.message) {
                 return <h1 key={key}>Content Not Found</h1>;
               } else {
@@ -53,10 +53,10 @@ const BlogContent = (props) => {
                     </h2>
                   );
                 }
-                if (val.content === "break\n") {
+                if (val.content === "break") {
                   return <br />;
                 }
-                if (val.content === "breakbreak\n") {
+                if (val.content === "breakbreak") {
                   return (
                     <>
                       <br />
