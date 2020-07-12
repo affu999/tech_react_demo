@@ -31,7 +31,7 @@ const Navigation = () => {
                         to={`/`}
                         className="nav-link active"
                        >
-                        <span className="ml-2">Home</span>
+                        <span className="ml-2 home">Home</span>
                       </NavLink>
                       </a>
                     </li>
