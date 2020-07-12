@@ -33,7 +33,6 @@ const Navigation = () => {
                        >
                         <span className="ml-2 home">Home</span>
                       </NavLink>
-                      </a>
                     </li>
                     <li className="nav-item mr-3">
                       <a
