@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -25,6 +26,15 @@ const Navigation = () => {
                   id="navbarSupportedContent"
                 >
                   <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li className="nav-item mr-3">
+                      <NavLink
+                        to={`/`}
+                        className="nav-link active"
+                       >
+                        <span className="ml-2">Home</span>
+                      </NavLink>
+                      </a>
+                    </li>
                     <li className="nav-item mr-3">
                       <a
                         href="https://www.youtube.com/channel/UCTfAFWQdRoFFOAJmjAZQx-g"
