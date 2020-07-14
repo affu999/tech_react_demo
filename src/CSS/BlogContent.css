@@ -12,6 +12,7 @@
 .blogContent {
   width: 60% !important;
   background-color: white;
+  margin-bottom:10px !important;
 }
 
 .blogContentRow {
