@@ -21,21 +21,21 @@ const Banner = () => {
         <div className="carousel-inner banner">
           <div className="carousel-item active">
             <img
-              src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              src="https://lh3.googleusercontent.com/UiKfOsIR1SE5TFbfL4OSWTSkRIlIjN8KRycrpFePscohj7RrQX4-1TkcC880lBJCGUZJxVYWYPq7IJEYdQnVPEbaDUk3crGraA3G8wVL87li0HKM2VaHdacEnW17QAc9Zpx1OO0=w1920-h1080"
               className="d-block"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://images.unsplash.com/photo-1548691905-57c36cc8d935?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              src="https://lh3.googleusercontent.com/seAcFAfU8dI6Sah9_VI8K1-kv1um1zGD7lF0rQzNfSpFGH_evvFWaT1mKmLaY4gymnPdOKRkz5NU8NGzf65wiQesoPpRcTmqwgc3Vtyd2gvha0ubUouj0GRJ_tKEt3ErPySHX70=w1920-h1080"
               className="d-block"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              src="https://lh3.googleusercontent.com/rcbjomboS7Dt93qAquvs67C8OKDc6Qy25ZLEbJ-UD02hxGassAr4X2w5kZlMyrZ5HZCAv1vL5ziNJVgCGhxuAhJ7eYBH9nlLiat23easYnGx0TumwRkHv8D_467HX_fy9RRvUko=w1920-h1080"
               className="d-block"
               alt="..."
             />
