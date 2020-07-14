@@ -7,7 +7,11 @@ const Navigation = () => {
         <div className="row">
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light">
-              <div className="container-fluid">
+              <div className="container-fluid ml-4">
+                <img
+                  src="https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  alt="..."
+                />
                 <h1 className="companyName">Tech Fierce</h1>
                 <button
                   className="navbar-toggler"
@@ -24,7 +28,7 @@ const Navigation = () => {
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
                 >
-                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0 mr-5">
                     <li className="nav-item mr-3">
                       <a
                         href="/"
