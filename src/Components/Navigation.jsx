@@ -9,7 +9,7 @@ const Navigation = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid ml-4">
                 <img
-                  src="https://lh3.googleusercontent.com/iDFGIhFMUhMiMGGyx-cijYlv4nYZY3_JGNOwTtGJh0etnKP1jwoqtU7H_dBsQEmS9wLHUAjzJ0amQycC9UKJr4IeFY5Mc9srPneJ_CmXiL2zXY5d4yZIPEQzatLfigQPhHDwoo4=w1920-h1080"
+                  src="https://lh3.googleusercontent.com/uaPyGOH0fSmk7CF3L1pIRpEJElcxNxnhnsIExFSGY2yBUa0I0LKFude7hp4vZUUtnv6Hfw4WdlKfd_583Dwh61FmCOHbCSqq7iFjY0gsU1DBVCWZmBuVcsXePFqletfcn_-cZQk=w1920-h1080"
                   alt="..."
                 />
                 <h1 className="companyName">Tech Fierce</h1>
