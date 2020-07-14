@@ -9,6 +9,9 @@ const Footer = () => {
         <h6 className="text-center">
           &#169; Copyright 2020 Tech Fierce All rights reserved
         </h6>
+        <h6 className="text-center">
+          Designed and developed by <strong>Affan Sharief</strong>
+        </h6>
       </div>
     </>
   );
