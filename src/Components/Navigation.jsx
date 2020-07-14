@@ -8,11 +8,13 @@ const Navigation = () => {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid ml-4">
-                <img
+                <h1 className="companyName">
+                  Tech Fierce
+                  <img
                   src="https://lh3.googleusercontent.com/1zzAzveR4_AwnYq0lhX225wTeqQPJ3dw7qdgMNQYn7tR0E1_5Jbzvdv07CGXlq4gwLssGUrwCmEu7jdODv-qzrNm0kCrfAduh9UB2l4esTL3YrOEiAKL-0x0Wg6iwd08P0dYLuM=w1920-h1080"
                   alt="..."
                 />
-                <h1 className="companyName">Tech Fierce</h1>
+                </h1>
                 <button
                   className="navbar-toggler"
                   type="button"
