@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className="row">
           <div className="col-12 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light">
-              <div className="container-fluid ml-4">
+              <div className="container-fluid ml-2">
                 <h1 className="companyName">
                   <img
                   src="https://lh3.googleusercontent.com/1zzAzveR4_AwnYq0lhX225wTeqQPJ3dw7qdgMNQYn7tR0E1_5Jbzvdv07CGXlq4gwLssGUrwCmEu7jdODv-qzrNm0kCrfAduh9UB2l4esTL3YrOEiAKL-0x0Wg6iwd08P0dYLuM=w1920-h1080"
