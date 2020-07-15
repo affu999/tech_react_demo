@@ -5,7 +5,7 @@ const Navigation = () => {
     <>
       <div className="container-fluid nav_bg myNavbar">
         <div className="row">
-          <div className="col-10 mx-auto">
+          <div className="col-12 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid ml-4">
                 <h1 className="companyName">
