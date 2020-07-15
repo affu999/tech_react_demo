@@ -8,6 +8,7 @@ import "./CSS/Navbar.css";
 import "./CSS/BlogContent.css";
 import BlogPage from "./Pages/BlogPage";
 import BlogContent from "./Pages/BlogContent";
+import MyAds from "./Components/MyAds";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route exact path={"/"} component={BlogPage} />
         <Route exact path={"/blog-content/:id"} component={BlogContent} />
       </Router>
+      <MyAds />
       <Footer />
     </>
   );
