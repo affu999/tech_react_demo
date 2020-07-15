@@ -16,15 +16,15 @@ const Navigation = () => {
                   Tech Fierce
                 </h1>
                 <button
-                  className="navbar-toggler"
+                  class="navbar-toggler"
                   type="button"
                   data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
+                  data-target="#navbarText"
+                  aria-controls="navbarText"
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span className="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                   <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mr-5">
