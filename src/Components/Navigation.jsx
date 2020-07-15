@@ -26,32 +26,25 @@ const Navigation = () => {
                 >
                   <span className="navbar-toggler-icon"></span>
                 </button>
-                <div
-                  className="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
-                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0 mr-5">
-                    <li className="nav-item mr-3">
-                      <a
-                        href="/"
-                        className="nav-link active"
-                       >
-                        <span className="ml-2 home">Home</span>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mr-5">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/">
+                        Home
                       </a>
                     </li>
-                    <li className="nav-item mr-3">
+                    <li class="nav-item">
                       <a
+                        class="nav-link"
                         href="https://www.youtube.com/channel/UCTfAFWQdRoFFOAJmjAZQx-g"
-                        className="nav-link active"
-                        aria-current="page"
                       >
                         <i className="fa fa-youtube-play"></i>
                         <span className="ml-2">Youtube</span>
                       </a>
                     </li>
-                    <li className="nav-item">
+                    <li class="nav-item">
                       <a
-                        className="nav-link"
+                        class="nav-link"
                         href="https://www.instagram.com/techfierce/"
                       >
                         <i className="fa fa-instagram fa-1x"></i>
